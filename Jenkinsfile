@@ -31,15 +31,7 @@ stages {
 			}
 			}
 			
-			stage ('create-file-3') {
-			steps {
-					dir ('/data/wsp3'){
-						sh "rm -rf *"
-						sh "touch file3"
-			}
 			
-			}
-			}
 			
 			
 
